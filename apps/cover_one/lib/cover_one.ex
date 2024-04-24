@@ -8,7 +8,7 @@ defmodule CoverOne do
 
   ## Examples
 
-      iex> CoverOne.covered()
+      iex> CoverOne.covered_1()
       :covered
 
   """
