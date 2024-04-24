@@ -2,7 +2,9 @@ defmodule CoverTwoTest do
   use ExUnit.Case
   doctest CoverTwo
 
-  test "greets the world" do
-    assert CoverTwo.hello() == :world
+  describe "covered" do
+    test "covered_1" do
+      assert CoverTwo.covered_1() == :covered
+    end
   end
 end

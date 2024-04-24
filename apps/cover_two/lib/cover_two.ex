@@ -4,15 +4,15 @@ defmodule CoverTwo do
   """
 
   @doc """
-  Hello world.
+  Covered.
 
   ## Examples
 
-      iex> CoverTwo.hello()
-      :world
+      iex> CoverTwo.covered_1()
+      :covered
 
   """
-  def hello do
-    :world
+  def covered_1 do
+    :covered
   end
 end
