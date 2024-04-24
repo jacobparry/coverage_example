@@ -8,5 +8,8 @@ defmodule CoverOneTest do
     assert CoverOne.covered_3() == :covered
     assert CoverOne.covered_4() == :covered
     assert CoverOne.covered_5() == :covered
+    assert CoverOne.covered_6() == :covered
+    assert CoverOne.covered_7() == :covered
+    assert CoverOne.covered_8() == :covered
   end
 end
