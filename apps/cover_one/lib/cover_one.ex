@@ -33,11 +33,27 @@ defmodule CoverOne do
     :covered
   end
 
+  def covered_6 do
+    :covered
+  end
+
+  def covered_7 do
+    :covered
+  end
+
+  def covered_8 do
+    :covered
+  end
+
   def not_covered_1 do
     :missed
   end
 
   def not_covered_2 do
+    :missed
+  end
+
+  def not_covered_3 do
     :missed
   end
 end
